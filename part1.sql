@@ -187,32 +187,25 @@ TO 'app_web'@'localhost';
 GRANT role_audit
 TO 'auditeur'@'localhost';
 
-SET DEFAULT ROLE ALL
-TO 'admin_ctf'@'localhost';
+SET DEFAULT ROLE ALL        -- A VERIFIER
+TO 'admin_ctf'@'localhost'; -- A VERIFIER
 
-SET DEFAULT ROLE ALL
-TO 'orga_ctf'@'localhost';
+SET DEFAULT ROLE ALL        -- A VERIFIER
+TO 'orga_ctf'@'localhost';  -- A VERIFIER
 
-SET DEFAULT ROLE ALL
-TO 'app_web'@'localhost';
+SET DEFAULT ROLE ALL        -- A VERIFIER
+TO 'app_web'@'localhost';   -- A VERIFIER
 
-SET DEFAULT ROLE ALL
-TO 'auditeur'@'localhost';
+SET DEFAULT ROLE ALL        -- A VERIFIER
+TO 'auditeur'@'localhost';  -- A VERIFIER
 
 SHOW GRANTS FOR 'admin_ctf'@'localhost';
-
 SHOW GRANTS FOR 'orga_ctf'@'localhost';
-
 SHOW GRANTS FOR 'app_web'@'localhost';
-
 SHOW GRANTS FOR 'auditeur'@'localhost';
-
 SHOW GRANTS FOR role_admin;
-
 SHOW GRANTS FOR role_orga;
-
 SHOW GRANTS FOR role_app;
-
 SHOW GRANTS FOR role_audit;
 
 
